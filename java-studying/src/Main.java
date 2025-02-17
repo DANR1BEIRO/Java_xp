@@ -1,17 +1,29 @@
 public class Main {
     public static void main(String[] args) {
-        
-        // obj 1
-        uzumaki naruto = new uzumaki();
-        naruto.name = "Naruto Uzumaki";
-        naruto.hasBiju = true;
-        naruto.basicAttack();
+
+    // create an object
+     Uzumaki naruto = new Uzumaki();
+     naruto.setName("Naruto Uzumaki");
+     naruto.setVillage("Hidden Leaf");
+     naruto.setAge(12);
+
+     Uchiha sasuke = new Uchiha();
+     sasuke.setName("Sasuke Uchiha");
+     sasuke.setVillage("Hidden Leaf");
+     sasuke.setAge(13);
+     System.out.println("Ninja name: " + sasuke.getName());
+     sasuke.activatedSharingan();
+
+     ;
+
+     Hatake kakashi = new Hatake();
+     kakashi.setName("Kakashi Hatake");
+     kakashi.setVillage("Hidden Leaf");
+     kakashi.activatedSharingan();
 
 
-        // obj 2
-        uchiha sasuke = new uchiha();
-        sasuke.name = "Sasuke Uchiha";
-        sasuke.sharinganActivated();
-        sasuke.basicAttack();
+
+
+
     }
 }
