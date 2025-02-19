@@ -4,7 +4,7 @@ plot of land, each with one decimal place, as well as the price
 per square meter of the plot with two decimal places. Then,
 the program should display the plot's area and the total price
 of the plot, both with two decimal places, according to with the example:
-
+-
 input:
 width: 10.0
 length: 30.0
