@@ -1,4 +1,6 @@
-public class Uzumaki extends Ninja{
+package OOP;
+
+public class Uzumaki extends Ninja {
 
     @Override
     public void basicAttack() {
