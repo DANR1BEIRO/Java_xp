@@ -23,7 +23,7 @@ public class ArithmeticOperations {
         System.out.println("The difference is: " + (a-b));
 
         if (b != 0)
-            System.out.println("The quotiente is: " + (a/b));
+            System.out.println("The quotient is: " + (a/b));
         else
             System.out.println("Error: Division by zero isn't allowed");
 
