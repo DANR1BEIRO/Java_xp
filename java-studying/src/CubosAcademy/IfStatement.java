@@ -8,7 +8,7 @@ public class IfStatement {
 
         if (number1 < number2) {
             System.out.println(number1 + " is less than " + number2);
-            System.out.println("without brackets");
+            System.out.println("with brackets");
         } else if (number1 == number2) {
             System.out.println(number1 + " is equal to " + number2);
         } else {
